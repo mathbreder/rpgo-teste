@@ -19,7 +19,7 @@ import br.ufes.inf.nemo.marvin.core.exceptions.SystemInstallFailedException;
 /**
  * TODO: document this type.
  *
- * @author Vítor E. Silva Souza (vitorsouza@gmail.com)
+ * @author Vitor E. Silva Souza (vitorsouza@gmail.com)
  * @version 1.0
  */
 @Named
@@ -74,7 +74,7 @@ public class InstallSystemController extends JSFController {
 	/**
 	 * Analyzes the name that was given to the administrator and, if the short name field is still empty, suggests a
 	 * value for it based on the given name.
-	 * 
+	 *
 	 * This method is intended to be used with AJAX.
 	 */
 	public void suggestShortName() {
@@ -91,7 +91,7 @@ public class InstallSystemController extends JSFController {
 
 	/**
 	 * Checks if both password fields have the same value.
-	 * 
+	 *
 	 * This method is intended to be used with AJAX.
 	 */
 	public void ajaxCheckPasswords() {
@@ -100,7 +100,7 @@ public class InstallSystemController extends JSFController {
 
 	/**
 	 * Checks if the contents of the password fields match.
-	 * 
+	 *
 	 * @return <code>true</code> if the passwords match, <code>false</code> otherwise.
 	 */
 	private boolean checkPasswords() {
@@ -114,7 +114,7 @@ public class InstallSystemController extends JSFController {
 
 	/**
 	 * Begins the installation process.
-	 * 
+	 *
 	 * @return The path to the web page that shows the first step of the installation process.
 	 */
 	public String begin() {
@@ -130,7 +130,7 @@ public class InstallSystemController extends JSFController {
 
 	/**
 	 * Registers the administrator as one of the steps of system installation and moves to the next step.
-	 * 
+	 *
 	 * @return The path to the web page that shows the next step in the installation process.
 	 */
 	public String registerAdministrator() {
@@ -145,7 +145,7 @@ public class InstallSystemController extends JSFController {
 
 	/**
 	 * Saves the SMTP configuration information and ends the installation process.
-	 * 
+	 *
 	 * @return The path to the web page that shows the next step in the installation process.
 	 */
 	public String saveConfig() {

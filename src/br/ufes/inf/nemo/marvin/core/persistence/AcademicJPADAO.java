@@ -19,7 +19,7 @@ import br.ufes.inf.nemo.marvin.core.domain.Academic_;
 /**
  * TODO: document this type.
  *
- * @author Vítor E. Silva Souza (vitorsouza@gmail.com)
+ * @author Vitor E. Silva Souza (vitorsouza@gmail.com)
  * @version 1.0
  */
 @Stateless

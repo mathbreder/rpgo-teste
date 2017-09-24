@@ -18,7 +18,7 @@ import br.ufes.inf.nemo.marvin.core.persistence.MarvinConfigurationDAO;
 /**
  * TODO: document this type.
  *
- * @author Vítor E. Silva Souza (vitorsouza@gmail.com)
+ * @author Vitor E. Silva Souza (vitorsouza@gmail.com)
  * @version 1.0
  */
 @Stateless
